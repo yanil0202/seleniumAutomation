@@ -23,7 +23,7 @@ public class FirstTest {
     @BeforeMethod
     public void setupTest (){
         //Create a new ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\anily\\IdeaProjects\\seleniumAutomation\\src\\main\\resources\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
 
 
